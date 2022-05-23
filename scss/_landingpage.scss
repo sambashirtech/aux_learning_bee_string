@@ -1,14 +1,11 @@
-.navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    height: 70px;
-}
-
-.navbar-brand__logo {
-    width: 130px;
-}
-
 .bee-string-navbar {
+    min-height: 70px;
+    &__logo {
+        width: 130px;
+    }
+}
+
+.bee-string-navbar-collapse {
     &__nav {
         display: flex;
         flex: 1;

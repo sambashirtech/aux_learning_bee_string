@@ -1,6 +1,8 @@
 @media (min-width:375px) {
-    .navbar-brand__logo {
-        width: 130px;
+    .bee-string-navbar {
+        &__logo {
+            width: 130px;
+        }
     }
     .hero-section {
         // background-image: url('/assets/images/mobile-bg.svg');
@@ -218,15 +220,17 @@
 }
 
 @media (min-width:992px) {
-    .navbar-brand__logo {
-        width: 155px;
+    .bee-string-navbar {
+        &__logo {
+            width: 155px;
+        }
     }
     .navbar {
         padding-top: 0px;
         padding-bottom: 0px;
         height: 83px;
     }
-    .bee-string-navbar {
+    .bee-string-navbar-collapse {
         &__nav {
             display: flex;
             flex: 1;
@@ -543,9 +547,9 @@
     .navbar {
         padding-top: 0px;
         padding-bottom: 0px;
-        height: 83px;
+        min-height: 83px;
     }
-    .bee-string-navbar {
+    .bee-string-navbar-collapse {
         &__nav-item {
             margin-right: 35px;
             &:last-child {
