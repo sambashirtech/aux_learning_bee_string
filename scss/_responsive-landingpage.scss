@@ -1,0 +1,616 @@
+@media (min-width:375px) {
+    .navbar-brand__logo {
+        width: 130px;
+    }
+    .hero-section {
+        // background-image: url('/assets/images/mobile-bg.svg');
+        &__content {
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        &__info {
+            padding-top: 20px;
+            padding-left: 10px;
+            h1 {
+                font-Size: 30px;
+            }
+            p {
+                font-Size: 16px;
+                padding-top: 30px;
+            }
+            h3 {
+                font-Size: 24px;
+                padding-top: 8px;
+            }
+            img {
+                width: 156px;
+                padding-left: 5px;
+                padding-top: 15px;
+            }
+        }
+        &__image-container {
+            padding: 10px 0 10px 50%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width:568px) {
+    .uniqueness-section {
+        padding-top: 60px;
+        background-position: center;
+        &__heading {
+            font-size: 45px;
+        }
+        &__content {
+            column-gap: 30px;
+            grid-template-rows: repeat(1, 1fr);
+        }
+        &__card {
+            flex-direction: row;
+            text-align: left;
+        }
+        &__img-content {
+            width: 25%;
+        }
+        &__info {
+            flex: 1;
+            padding: 20px 25px;
+            h3 {
+                font-size: 24px;
+            }
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 2;
+            }
+        }
+    }
+    .more-unique-things-section {
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+@media(min-width:768px) {
+    .hero-section {
+        &__content {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        &__info {
+            padding-top: 0;
+            padding-left: 0;
+            h1 {
+                font-Size: 50px;
+            }
+            p {
+                font-Size: 20px;
+                padding-top: 24px;
+            }
+            h3 {
+                font-Size: 27px;
+            }
+            img {
+                width: 223px;
+                padding: 26px 5px 0px 7px;
+            }
+        }
+    }
+    .what-are-surveys-about-section {
+        &__content {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 25px;
+        }
+    }
+    .where-does-it-come-from-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        &__heading {
+            h1 {
+                font-size: 45px;
+                line-height: 68px;
+            }
+        }
+        &__content {
+            margin-top: 40px;
+        }
+        &__box {
+            width: 33.3%;
+            margin-left: 10px;
+            &:first-child {
+                margin-left: 0px;
+            }
+        }
+        &__stats {
+            height: 250px;
+            h1 {
+                font-size: 62px;
+            }
+            h2 {
+                font-size: 35px;
+            }
+        }
+        &__text {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .more-unique-things-section {
+        padding-bottom: 60px;
+        padding-top: 40px;
+        p {
+            line-height: 2;
+        }
+    }
+    .happy-earners-section {
+        &__content {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        &__card {
+            padding: 25px 48px 30px;
+            text-align: left;
+            margin: 0 0;
+            p {
+                padding-bottom: 20px;
+            }
+            h3 {
+                padding-bottom: 8px;
+            }
+            h6 {
+                font-size: 16px;
+            }
+        }
+    }
+    .bee-string-footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        &__content {
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+        &__logo {
+            margin-bottom: 23px;
+            img {
+                width: 230px;
+            }
+        }
+        &__box {
+            &--span {
+                grid-column: span none;
+            }
+            p {
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+            img {}
+            h5 {
+                margin-bottom: 0;
+                font-weight: 600;
+                font-size: 22px;
+            }
+            ul {
+                font-size: 20px;
+                line-height: 192%;
+                li {
+                    margin-bottom: 0px;
+                }
+            }
+            a {
+                font-size: 20px;
+            }
+        }
+        &__copy-right {
+            margin-top: 70px;
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .navbar-brand__logo {
+        width: 155px;
+    }
+    .navbar {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 83px;
+    }
+    .bee-string-navbar {
+        &__nav {
+            display: flex;
+            flex: 1;
+            justify-content: end;
+        }
+        &__nav-item {
+            font-weight: 600;
+            font-size: 16px;
+            margin-right: 15px;
+            &--active {
+                color: #F5C722 !important;
+            }
+            &__link {
+                &:hover {
+                    color: #F5C722 !important;
+                }
+            }
+            &:last-child {
+                margin-right: 15px;
+            }
+        }
+    }
+    .hero-section {
+        // background-image: url('/assets/images/hero-section-bg.svg');
+        &__info {
+            h1 {
+                font-Size: 50px;
+            }
+            p {
+                font-Size: 20px;
+                padding-top: 24px;
+            }
+            h3 {
+                font-Size: 27px;
+                padding-top: 5px;
+            }
+        }
+        &__image-container {
+            padding: 4px 80px 20px 110px;
+        }
+    }
+    .how-to-work-section {
+        padding-bottom: 80px;
+        padding-top: 40px;
+        &__heading {
+            h1 {
+                font-Size: 45px;
+            }
+        }
+        &__content {
+            flex-direction: row;
+            padding-top: 60px;
+        }
+        &__box {
+            margin-bottom: 0;
+            img {
+                padding-bottom: 11px;
+            }
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 16px;
+                padding-top: 6px;
+            }
+        }
+    }
+    .withdraw-your-money-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        &__right-decoration {
+            display: block;
+            position: absolute;
+            top: -169px;
+            right: 0px;
+        }
+        &__left-decoration {
+            display: block;
+            position: absolute;
+            bottom: 28px;
+            left: -36px;
+        }
+        &__heading {
+            h1 {
+                font-Size: 45px;
+            }
+        }
+        &__content {
+            padding-top: 45px;
+            grid-template-rows: repeat(1, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+        }
+        &__box {
+            margin-bottom: 0px;
+            img {
+                padding-bottom: 2px;
+            }
+            p {
+                padding-bottom: 13px;
+            }
+        }
+    }
+    .what-are-surveys-about-section {
+        padding-bottom: 60px;
+        padding-top: 60px;
+        margin-top: 60px;
+        &__heading {
+            h1 {
+                position: relative;
+                font-Size: 45px;
+            }
+        }
+        &__content {
+            grid-template-columns: repeat(4, 1fr);
+            column-gap: 15px;
+            margin-top: 50px;
+        }
+        &__surveys {
+            padding: 40px 40px;
+            text-align: left;
+            h1 {
+                text-align: center;
+            }
+            p {
+                padding-top: 16px;
+            }
+        }
+        &__decoration-right {
+            display: block;
+            top: -100px;
+            right: -22px;
+        }
+    }
+    .your-opinion-matter-section {
+        padding-bottom: 0px;
+        background-position: bottom;
+        &__content {
+            flex-direction: row;
+        }
+        &__left {
+            padding: 10px 64px 70px 26px;
+        }
+        &__right {
+            padding-top: 145px;
+            padding-left: 50px;
+        }
+        &__info {
+            h1 {
+                font-weight: 800;
+                font-size: 36px;
+                line-height: 54px;
+            }
+            p {
+                padding-bottom: 35px;
+                font-size: 28px;
+                line-height: 42px;
+            }
+            button {
+                margin-left: 75px;
+                width: 240px;
+                height: 60px;
+            }
+        }
+    }
+    .better-product-section {
+        background-image: url('/assets/images/better-product-bg.png');
+        padding: 46px 0;
+        &__content {
+            flex-direction: row;
+            align-items: center;
+        }
+        &__text {
+            padding: 0px 0px 60px 36px;
+            width: 50%;
+            h1 {
+                font-size: 45px;
+            }
+            p {
+                width: 360px;
+                font-size: 18px;
+                line-height: 2;
+                padding-top: 26px;
+            }
+        }
+        &__img {
+            width: 50%;
+            img {
+                display: none;
+            }
+        }
+    }
+    .where-does-it-come-from-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        &__heading {
+            h1 {
+                font-size: 45px;
+                line-height: 68px;
+            }
+        }
+        &__content {
+            margin-top: 60px;
+        }
+        &__box {
+            width: 33.3%;
+        }
+        &__stats {
+            height: 250px;
+            h1 {
+                font-size: 62px;
+            }
+            h2 {
+                font-size: 35px;
+            }
+        }
+        &__text {
+            margin-top: 30px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .uniqueness-section {
+        padding-top: 60px;
+        background-position: center;
+        &__heading {
+            font-size: 45px;
+        }
+        &__content {
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 30px;
+        }
+        &__card {
+            display: flex;
+            flex-direction: row;
+        }
+        &__img-content {
+            width: 36%;
+            img {
+                border-top-right-radius: 0px;
+            }
+        }
+        &__info {
+            padding: 20px 25px;
+            h3 {
+                font-weight: 700;
+                font-size: 24px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+    .happy-earners-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        &__heading {
+            h1 {
+                font-size: 45px;
+            }
+        }
+        &__content {
+            padding-top: 60px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        &__card {
+            p {
+                font-size: 16px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+            h6 {}
+            &:hover {
+                margin-top: -20px;
+            }
+        }
+    }
+    .bee-string-footer {
+        &__content {
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 0px;
+            column-gap: 30px;
+        }
+        &__logo {
+            img {
+                width: 230px;
+            }
+        }
+        &__box {
+            &--span {
+                grid-column: span none;
+            }
+            p {
+                font-size: 16px;
+            }
+            img {}
+            h5 {
+                font-weight: 600;
+                font-size: 22px;
+            }
+            ul {
+                font-size: 20px;
+                line-height: 2;
+            }
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1366px) {
+    .navbar {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 83px;
+    }
+    .bee-string-navbar {
+        &__nav-item {
+            margin-right: 35px;
+            &:last-child {
+                margin-right: 47px;
+            }
+        }
+    }
+    .hero-section {
+        &__content {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        &__info {
+            padding-top: 35px;
+            padding-left: 0px;
+            h1 {
+                font-Weight: 700;
+                font-Size: 50px;
+            }
+            p {
+                font-Weight: 500;
+                font-Size: 20px;
+                padding-top: 24px;
+                color: rgb(174, 170, 170);
+            }
+            h3 {
+                font-Weight: 600;
+                font-Size: 27px;
+                padding-top: 9px;
+            }
+            img {
+                width: 223px;
+                padding: 26px 5px 0px 7px;
+            }
+        }
+        &__image-container {
+            padding: 4px 80px 20px 110px;
+        }
+    }
+    .what-are-surveys-about-section {
+        &__content {
+            column-gap: 25px;
+        }
+    }
+    .your-opinion-matter-section {
+        background-position: center;
+    }
+    .better-product-section {
+        background-image: url('/assets/images/better-product-bg.png');
+        &__content {
+            flex-direction: row;
+            align-items: center;
+        }
+        &__text {
+            padding: 0px 0px 60px 36px;
+            width: 50%;
+            h1 {
+                font-size: 45px;
+            }
+        }
+        &__img {
+            width: 50%;
+            img {
+                display: none;
+            }
+        }
+    }
+}
